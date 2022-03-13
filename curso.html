@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Mi primera web</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Hola beatrs</td>
+                <th>200</th>
+                <th>1</th>
+            </tr>
+            <tr>
+                <td> AUDIFONOS</td>
+                <th>200</th>
+                <th>2</th>
+            </tr>
+            <tr>
+                <td> AUDIFONOS sargento peer</td>
+                <th>2200</th>
+                <th>2</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>2600</td>
+            <td>5</td>
+
+        </tfoot>
+        
+        
+    </table>
+    <!--  ul Lista no ordenada-->
+    <ul>
+        <li> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+
+    </ul>
+    <!-- "ol" Lista no ordenada-->
+
+    <ol>
+        <li value="50"> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;" >Sub element 1</li>
+                <li style="list-style-type: lower-roman;" >Sub element 1</li>
+                <li style="list-style-type: lower-roman;" >Sub element 1</li>
+
+            </ol>
+        </li>
+
+    </ol>
+
+
+    <form action="/formulario" method="POST">
+        <label for="nombre"> Nombre </label>
+        <input value="PRUEBA HTML" type="text" id="nombre" name="nombre" placeholder="eJMPLO NOMBRE" />
+        <br>
+        <label for="apellido"> Apellido</label>
+        <input value="feliz" type="text" id="apellido" name="apellido" placeholder="eJMPLO apellido" />
+        <br>
+        <label for="comentario">Comentario</label><br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"> este es un valor por defecto</textarea>
+        <br>
+        <button type="button">Tipo boton</button>
+        <button type="reset">Tipo RESET</button>
+        <button type="submit">Tipo submit</button>
+
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi quito heading</h4>
+    <h5>Mi cuarto heading</h5>
+    <h6>Chnachito feliz</h6>
+    <p>Prueba de contenido de parrafo.</p>
+    <p>Prueba de contenido de parrafo diferente parrafo.</p>
+    <hr>
+    <h2>Mi segundo heading</h2>
+    <p>
+        Mas texto mucho texto ta bien <span style="color:blue">mas texto largo</span>  
+         para poder ejemplificar <br><br>
+         la manera de usar la etiqueta de span
+    </p>
+    <!-- Comentario sobre el codigo realizado-->
+    <a target="_blank" href="https://www.google.com.mx">Ir a google</a>
+    <img src="img/icemanisaac.png" width="400"/>
+    
+</body>
+</html>
